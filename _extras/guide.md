@@ -147,7 +147,7 @@ When processing `books/last.txt` with Python 3 and vanilla shell environment on
 Arch Linux the following error has appeared:
 
 ~~~
-$ python wordcount.py books/last.txt last.dat
+$ python countword.py books/last.txt last.dat
 ~~~
 {: .bash}
 ~~~
@@ -173,6 +173,8 @@ $ export LANG=en_US.UTF-8
 $ export LANGUAGE=en_US.UTF-8
 ~~~
 {: .bash}
+
+The same error occurs with older versions of python, like 3.4.5 :: Anaconda custom (64-bit), while it runs fine with 3.7.4
 
 ## Beware of different Make implementations!
 
